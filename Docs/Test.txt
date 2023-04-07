@@ -1,0 +1,5 @@
+Em s? d?ng "Selenium IDE" ?? vi?t các Test case
+Test ??ng Kí:
+	+ http://localhost/Vestman/Vestman/
+Test ??ng Nh?p:
+	+ http://localhost/Vestman/Vestman/admincp/login.php
