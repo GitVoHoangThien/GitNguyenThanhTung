@@ -1,0 +1,549 @@
+{
+  "id": "d17eae83-364b-4828-97f3-ec51b4716943",
+  "version": "2.0",
+  "name": "Test",
+  "url": "http://localhost/Vestman/Vestman/admincp/login.php",
+  "tests": [{
+    "id": "b3d4fe85-3536-436b-ab80-dcfbb571c5c9",
+    "name": "Test đăng kí",
+    "commands": [{
+      "id": "b5b3d2d2-d2c5-423e-9242-d48a1a73c9b9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Vestman/Vestman/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e3d073c-72cc-4d7f-861c-9565472a1985",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6e0e304-a6af-4360-b904-21eb5365a9db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-sign-out-alt",
+      "targets": [
+        ["css=.fa-sign-out-alt", "css:finder"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b869943-b3ef-4c01-8aef-34781ba4b006",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-user-secret",
+      "targets": [
+        ["css=.fa-user-secret", "css:finder"],
+        ["xpath=//li[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c3cad8-7925-44b6-9a7e-a2980cd96049",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-login:nth-child(1)",
+      "targets": [
+        ["css=.input-login:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "142191d8-7e61-4100-90d7-a1e4493fcc8b",
+      "comment": "",
+      "command": "click",
+      "target": "name=hovaten",
+      "targets": [
+        ["name=hovaten", "name"],
+        ["css=.input-login:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='hovaten']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f897c62-1da4-4ad1-aaa6-4cf2b727cf66",
+      "comment": "",
+      "command": "type",
+      "target": "name=hovaten",
+      "targets": [
+        ["name=hovaten", "name"],
+        ["css=.input-login:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='hovaten']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "longadmin"
+    }, {
+      "id": "8f8bda46-472e-44f7-bdcf-4901faec0aab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-login:nth-child(2)",
+      "targets": [
+        ["css=.input-login:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1536f074-88e0-4f10-aff6-69cf0b2874f2",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97f9a128-49a9-4113-b947-6fb8115030fe",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "hoangthien261101@gmail.com"
+    }, {
+      "id": "efffc4ab-4dee-4579-9459-15f9e609450f",
+      "comment": "",
+      "command": "click",
+      "target": "name=dienthoai",
+      "targets": [
+        ["name=dienthoai", "name"],
+        ["css=.input-login:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='dienthoai']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c536c42a-1146-4e5f-9fef-9c65b83e9701",
+      "comment": "",
+      "command": "type",
+      "target": "name=dienthoai",
+      "targets": [
+        ["name=dienthoai", "name"],
+        ["css=.input-login:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='dienthoai']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "09877647377"
+    }, {
+      "id": "71c951aa-b925-45eb-bc6f-f8f0fc443150",
+      "comment": "",
+      "command": "click",
+      "target": "name=diachi",
+      "targets": [
+        ["name=diachi", "name"],
+        ["css=.input-login:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='diachi']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a72d917-7ec6-41ab-8416-b300b15991ad",
+      "comment": "",
+      "command": "type",
+      "target": "name=diachi",
+      "targets": [
+        ["name=diachi", "name"],
+        ["css=.input-login:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='diachi']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "adc"
+    }, {
+      "id": "d7193e20-981e-4a79-b47c-2b847607254d",
+      "comment": "",
+      "command": "click",
+      "target": "name=matkhau",
+      "targets": [
+        ["name=matkhau", "name"],
+        ["css=.input-login:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='matkhau']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95497580-90ac-4689-ae53-e3ef0ca5eda0",
+      "comment": "",
+      "command": "type",
+      "target": "name=matkhau",
+      "targets": [
+        ["name=matkhau", "name"],
+        ["css=.input-login:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='matkhau']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "d9e084c7-8505-4397-882d-6272f86d0a6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//button/p", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8be4ac05-96f1-45ed-93fc-14e3facb9727",
+    "name": "Test đăng nhập",
+    "commands": [{
+      "id": "c3038daa-9e3d-4ee6-855c-2f849eebd8ef",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Vestman/Vestman/admincp/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59af2fdc-48d7-455b-b4e8-e518fa89dcae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82db4a32-4e65-4025-8056-538c6429573a",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-login:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2d4d00d-388c-4e75-9aa4-5d55d40e9e0f",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-login:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "longadmin"
+    }, {
+      "id": "c5815952-98ef-486e-83dd-2fd3564e8b06",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ac2316c-8dc8-4d9e-aaba-582918494d29",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "9c40f5d6-a5ce-47c1-a056-fbd403350387",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@name='dangnhap']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐĂNG NHẬP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ad5209c-236b-4faa-819b-e0610d2a7514",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng xuất: longadmin",
+      "targets": [
+        ["linkText=Đăng xuất: longadmin", "linkText"],
+        ["css=.logout-text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng xuất: longadmin')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.php?dangxuat=1')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng xuất: longadmin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d62ff04-6d92-4a63-b412-84ca6061e848",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-login:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de91987f-4f1e-421b-aca3-c953c2621718",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-login:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "longadmin"
+    }, {
+      "id": "efec2931-13c0-4aac-80b1-54e7baa77e3c",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05ab2367-1d71-4cbb-a981-1803ceaad10d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "124523263743"
+    }, {
+      "id": "ef9392c2-4f5c-4b04-b145-ea6a6aebf84e",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@name='dangnhap']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐĂNG NHẬP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae496d71-e66f-443e-8c6f-660c187d1d0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@name='dangnhap']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐĂNG NHẬP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6f0271-c087-49b9-9f2b-186dc00e30fe",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-login:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "092555eb-df61-4faf-afaa-395a06e3cfa4",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-login:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "longadmi"
+    }, {
+      "id": "9dccba6b-93bd-4775-8c43-695bd577de03",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22d56276-82f6-4725-b60f-cf10efe693a8",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "253253"
+    }, {
+      "id": "3ea105a6-abb4-4c1a-bea7-4722c76c1af0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1d4ddde7-3c6c-4714-a1ec-173d6d1e90c1",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-login:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbf31b79-afb4-452e-ac8c-8f9208e22d1d",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-login:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "longadmin"
+    }, {
+      "id": "1c34115f-d23d-412b-9139-65761c90ad7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-login:nth-child(2)",
+      "targets": [
+        ["css=.input-login:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9abb15f-dd9f-494b-ae55-2d364b389725",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8108fbeb-35d7-4415-af33-5fb259c50eb4",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-login:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "21ad0016-15ca-4cdd-a093-c54368635a33",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@name='dangnhap']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ĐĂNG NHẬP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1334adb7-5fae-40f5-be4c-39aad71c08fe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=KHÁCH HÀNG",
+      "targets": [
+        ["linkText=KHÁCH HÀNG", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'KHÁCH HÀNG')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.php?action=quanlykhach&query=lietke')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KHÁCH HÀNG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a964aacb-1443-413c-8651-01408e6ad6a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'longadmin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4583394a-50ee-4870-89a6-88102ee8a2e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'longadmin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13644819-e30b-491d-a5f5-01c7db02747b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng xuất: longadmin",
+      "targets": [
+        ["linkText=Đăng xuất: longadmin", "linkText"],
+        ["css=.logout-text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng xuất: longadmin')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.php?dangxuat=1')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng xuất: longadmin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3c1264fe-41b4-4612-a746-16d00ba87a66",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b3d4fe85-3536-436b-ab80-dcfbb571c5c9"]
+  }],
+  "urls": ["http://localhost/Vestman/Vestman/", "http://localhost/Vestman/Vestman/admincp/login.php"],
+  "plugins": []
+}
